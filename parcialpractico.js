@@ -1,10 +1,6 @@
-const MongoClient = require('mongodb').MongoClient
-ObjectID = require('mongodb').ObjectID,
-    express = require('express'),
-    engines = require('consolidate');
 
-var app = express(),
-    db;
+express = require('express'),
+engines = require('consolidate');
 
 app.engine('hbs', engines.handlebars);
 
