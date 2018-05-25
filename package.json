@@ -1,0 +1,25 @@
+{
+  "name": "londono_ilian-parcialpractico2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parcialpractico.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "handlebars": "^4.0.11",
+    "nodemon": "^1.17.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon parcialpractico.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilianlondon/parcialPracticoDos.git"
+  },
+  "author": "Ilian Londono",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilianlondon/parcialPracticoDos/issues"
+  },
+  "homepage": "https://github.com/ilianlondon/parcialPracticoDos#readme"
+}
